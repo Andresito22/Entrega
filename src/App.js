@@ -2,6 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar'
 import Saludo from './components/ItemListContainer'
 
+import Contador from './components/itemCount';
+
 
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Saludo/>
+      <Contador/>
     </div>
 
   );
