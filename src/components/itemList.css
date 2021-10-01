@@ -1,0 +1,9 @@
+.itemList{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+
+}

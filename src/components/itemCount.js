@@ -41,7 +41,7 @@ function Contador({ onadd }) {
   return (
     <div>
     <div className="app">
-        <p className="titulo">Camiseta</p>
+        <p className="titulo">Comprar</p>
         <div className="titulo-2">
       <div className="app-Container">
         <button onClick={less} className="btn-less">
