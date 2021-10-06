@@ -58,3 +58,75 @@
     text-align: left;
     color: #000;
 }
+
+/*Propiedades itemDetail*/
+
+.description-item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+.item-img{
+    width: 50%;
+}
+
+.item-img img{
+    width: 150%;
+}
+
+.description-item .item-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.description-item .item-text span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #27ae60;
+}
+.description-item .item-text span:first-child{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #2c3e50;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.description-item .item-text span:nth-child(2){
+    font-size: .7rem;
+    color: #95a5a6;
+    margin-top: 10px;
+}
+.description-item .item-text span:nth-child(3){
+    font-size: 1.6rem;
+    color: #3498db;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.description-item .fa-truck{
+    color: #27b964;
+}
+.description-item .btn-buy{
+    outline: none;
+    background: none;
+    border: 3px solid #2980b9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #3498db;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.description-item .btn-buy:hover{
+    background: #3498db;
+    color: #fff;
+    border: 3px solid #2980b9;
+}
+.description-item .btn-buy:active{
+    transform: scale(.8);
+}

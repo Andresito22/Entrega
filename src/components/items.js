@@ -1,27 +1,49 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import ItemCount from './itemCount';
 import './items.css';
+import ItemDetail  from "./itemDetail";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faTruck} from '@fortawesome/free-solid-svg-icons';
 
-const item = ({title,price,img}) => {
+const Item = ({title,price,img,description}) => {
+    const [active, setActive] = useState (false)
+    const toggle = () => {setActive(!active)}
     return (
         <Fragment>
-            <a className="item">
+            <a className="item" onClick={toggle}>
                 <div className="itemContent">
                     <div className="itemContent-img">
                         <img src = {img} alt=''/>
                     </div>
                     <div className="itemContent-text">
-                        <p className="itemPrice">$USD {price}</p>
-                        <p className="itemBuy">Comprar</p>
+                        <a onClick={toggle}>
+                            <p className="itemPrice">$USD {price}</p>
+          
+                        </a>
+                        
                         <h2>{title}</h2>
                     </div>
                 </div>
-                <ItemCount/>
             </a>
+            <ItemDetail active={active} toggle={toggle}>
+                <div className="description-item">
+                    <div className="item-img">
+                        <img src = {img}/>
+                    </div>
+                    <div className="item-text">
+                        <span>{title}</span>
+                        <span>{description}</span>
+                        <span>$USD{price}</span>
+                        <span>FREE SHIPPING <FontAwesomeIcon icon ={faTruck}/></span>
+                        <button className="btn-buy">Comprar</button>
+                        <ItemCount/> 
+                    </div>
+                </div>
+            </ItemDetail>
         
 
         </Fragment>
     )
 }
 
-export default item;
+export default Item;

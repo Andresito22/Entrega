@@ -14,6 +14,7 @@ const itemList = ({data}) => {
                         title ={data.title}
                         price = {data.price}
                         img = {data.image}
+                        description = {data.description}
                         />
                     )
                 })}

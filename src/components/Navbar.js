@@ -19,10 +19,10 @@ export default class Navbar extends Component {
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Features</a>
+                                <a className="nav-link" href="#">Catalogo</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Pricing</a>
+                                <a className="nav-link" href="#">Carrito de compras</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link"><Cardwidget/></a>
