@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
-import ItemCount from './itemCount';
-import './items.css';
-import ItemDetail  from "./itemDetail";
+import ItemCount from './ItemCount';
+import '../styles/Items.css';
+import ItemDetail  from "./ItemDetail";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faTruck} from '@fortawesome/free-solid-svg-icons';
 

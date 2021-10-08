@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import './ItemListContainer.css';
-import ItemList from './itemList';
+import '../styles/ItemListContainer.css';
+import ItemList from './ItemList';
 
 const ItemContainer = () => {
     const [product, setProduct] = useState([]);
@@ -18,7 +18,6 @@ const ItemContainer = () => {
     return (
       <Fragment>
         <div className="itemContainer">
-          <h2>Hot Shopping</h2>
         </div>
         <ItemList data = {product} />
       </Fragment>

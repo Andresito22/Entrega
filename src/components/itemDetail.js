@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import "./itemDetail.css"
-import Portal from "./portal"
+import "../styles/ItemDetail.css"
+import Portal from "./Portal"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faTimes} from '@fortawesome/free-solid-svg-icons';
 

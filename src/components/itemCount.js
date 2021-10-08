@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./itemCount.css";
+import "../styles/ItemCount.css";
 
 /*constructor(props) {
         super(props);
