@@ -12,7 +12,7 @@ import { Link as ScrollLink } from "react-scroll";
 import "./NavBar.css";
 
 const NavBar = () => {
-  const { isInStore, isInHome } = useContext(SiteContext);
+  const { isInHome } = useContext(SiteContext);
   return (
     <nav className="navbar navbar-expand-lg" id="navbar">
       <Link to="/" className="navbar-brand">
