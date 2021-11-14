@@ -1,8 +1,11 @@
+// REACT
 import React, { useContext, useEffect } from "react";
-import { SiteContext } from "../context/CartContext";
-import ItemListContainer from "../StoreView/ItemListContainer/ItemListContainer";
+// CONTEXT
+import { SiteContext } from "../../context/SiteContext";
+// COMPONENTS
+import ItemListContainer from "../../components/StoreView/ItemListContainer/ItemListContainer";
 
-const Category = () => {
+const Store = () => {
   const { setIsInStore, setIsInHome } = useContext(SiteContext);
 
   useEffect(() => {
@@ -17,4 +20,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default Store;

@@ -1,5 +1,8 @@
+// REACT
 import React, { useContext, useEffect } from "react";
-import { SiteContext } from "../context/CartContext";
+// CONTEXT
+import { SiteContext } from "../../context/SiteContext";
+// COMPONENTS
 import ItemListContainer from "../StoreView/ItemListContainer/ItemListContainer";
 
 const Category = () => {

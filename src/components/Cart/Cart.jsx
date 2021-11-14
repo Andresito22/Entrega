@@ -1,8 +1,12 @@
-
+// REACT
 import React, { useContext, useState, useEffect } from "react";
-import { Redirect, useHistory } from "react-router-dom";
-import { CartContext } from "../../../context/CartContext";
+// REACT ROUTER DOM
+import { useHistory } from "react-router-dom";
+// CONTEXT
+import { SiteContext } from "../../context/SiteContext";
+// COMPONENTS
 import Checkout from "../Checkout/Checkout";
+// CSS
 import "./Cart.css";
 
 const Cart = () => {
@@ -41,7 +45,7 @@ const Cart = () => {
           <p>Tu carrito está vacío.</p>
           <span className="loadingMsg_Logo">Uncoded .io</span>
           <button className="mt-5" onClick={goBack}>
-            volver
+            Volver
           </button>
         </div>
       ) : !checkout ? (
@@ -52,7 +56,7 @@ const Cart = () => {
               key={item.id}
             >
               <img
-                src={item.thumbnailUrl}
+                src={item.imageld}
                 alt=""
                 className="col-md-3 col-12 pb-3"
               />
@@ -92,7 +96,7 @@ const Cart = () => {
         <div className="col-11 px-0">
           <div className="cartItem cartTotal mt-3 text-center py-3 d-flex justify-content-center">
             <p>
-              Productos en el carrtito: <strong>{cartAmount}</strong>
+              Productos en el carrito: <strong>{cartAmount}</strong>
             </p>
             <p>
               Total:

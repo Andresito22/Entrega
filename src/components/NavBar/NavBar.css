@@ -1,6 +1,7 @@
 .navbar {
-    background-color: #0b629c;
+    background-color: #197bbd;
     padding: 0.8em 2rem;
+
 }
 
 .navbar .navbar-collapse {
@@ -23,17 +24,25 @@
 }
 
 .navbar .dropdown-menu {
-    background-color: #0b629c;
+    background-color: #197bbd;
 }
 
 .navbar input {
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 30px;
-    padding: .1em .5rem;
+    padding: .1em 2rem .1em .5rem;
     margin: 0 1rem 0 0;
     color: #fff;
     font-weight: 300;
+}
+
+.navbar .navbar-brand:hover,
+.cart-icon .fas:hover,
+.navbar .nav-link:hover,
+.navbar .nav-item:hover {
+    color: #302f2f;
+    cursor: pointer;
 }
 
 .navbar input::placeholder {
@@ -45,13 +54,14 @@
     color: #fff;
 }
 
-.navbar #warn {
-    position: relative;
-    top: .5rem;
-    left: 1.5rem;
-    font-size: 1.2rem;
-    font-weight: 800;
-    color: red;
+.fa-shopping-cart span {
+    font-family: montserrat, sans-serif;
+    padding: 0 .5rem;
+    font-weight: 500;
+}
+
+.store span {
+    padding-right: 1rem;
 }
 
 
