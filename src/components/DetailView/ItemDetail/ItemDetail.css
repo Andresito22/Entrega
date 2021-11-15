@@ -20,6 +20,7 @@
 .detail_container .product_desc {
     font-size: .9rem;
     font-weight: 400;
+    color: #212529;
 }
 
 .detail_container .card-text {
