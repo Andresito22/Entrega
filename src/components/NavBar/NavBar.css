@@ -3,6 +3,9 @@
     padding: 0.8em 2rem;
 
 }
+.nav-link.disabled {
+    color: #cac8c8;
+}
 
 .navbar .navbar-collapse {
     justify-content: space-between;
