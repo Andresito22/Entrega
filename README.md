@@ -38,10 +38,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
     React Scroll - Para implementar "Scroll Links" en el menú de navegación (enlaces intenros).
 
 ## Recorrido Rápido por el Sitio
-    ![Uncoded](https://i.ibb.co/XSQhNn7/rec-screen.gif)
+    (https://i.ibb.co/XSQhNn7/rec-screen.gif)
     
 ## Link de la pagina en Netlify
-   ![Uncoded.io](https://uncoded-io.netlify.app)
+   (https://uncoded-io.netlify.app)
 
 
 
