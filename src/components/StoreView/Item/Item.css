@@ -35,6 +35,8 @@ p {
     letter-spacing: 0.02rem;
     margin: 0 0;
     align-self: flex-start;
+    color: rgb(32, 32, 32);
+    
 }
 
 .card .desc {
@@ -42,6 +44,7 @@ p {
     font-weight: 400;
     padding-right: 1rem;
     margin: 0 0 1em 0;
+    color: rgb(0, 0, 0);
 }
 
 .card .card-text::before {
@@ -56,7 +59,7 @@ p {
 }
 
 .card:hover {
-    background-color: #6266681c;
+    background-color: #4598be34;
 }
 
 .buy .finishBtn {

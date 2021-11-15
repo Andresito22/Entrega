@@ -103,7 +103,7 @@ const ItemDetail = ({ data }) => {
             <div className="buy d-flex align-items-center">
               {amount > 0 ? (
                 <Link to="/cart">
-                  <button className="finishBtn">terminar compra</button>
+                  <button className="finishBtn">Terminar compra</button>
                 </Link>
               ) : (
                 <ItemCount
@@ -115,7 +115,7 @@ const ItemDetail = ({ data }) => {
             </div>
             <div className="d-flex justify-content-end">
               <Link to="/store" className="return_btn">
-                ← volver.
+                ← Volver.
               </Link>
             </div>
           </div>
