@@ -8,6 +8,8 @@ p {
     width: 18rem;
     background-color: #fffdfd59;
     border: 1px solid #fff;
+    box-shadow: 4px 0px 26px #8888;
+    border-radius: 10px;
 }
 
 .img-fluid {

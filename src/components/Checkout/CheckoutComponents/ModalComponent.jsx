@@ -15,12 +15,12 @@ const ModalComponent = ({ amount = 0 }) => {
       <div className="modalContainer">
         <div className="modalBorder">
           <p className="modalLogo">Uncoded .io</p>
-          <h2>{amount} producto/s agregado/s al carrito.</h2>
+          <h2>{amount} Producto/s agregado/s al carrito.</h2>
           <div className="d-flex">
             <Link to="/cart">
-              <button className="btn mx-2">ver carrito</button>
+              <button className="btn mx-2">Ver carrito</button>
             </Link>
-            <button className="btn btnOut mx-2"> salir</button>
+            <button className="btn btnOut mx-2"> Salir</button>
           </div>
         </div>
       </div>
